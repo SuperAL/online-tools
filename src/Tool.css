@@ -1,0 +1,35 @@
+.Tool {
+  margin: 20px; }
+  .Tool.row {
+    display: flex;
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    flex-direction: row !important; }
+  .Tool .header {
+    padding-bottom: 10px;
+    font-size: 16px; }
+  .Tool .code-editor {
+    width: 100% !important;
+    min-height: 400px !important;
+    border-radius: 0.4rem; }
+  .Tool .action {
+    top: 200px;
+    text-align: center; }
+
+
+    .col-2, .col-5 {
+      position: relative;
+      padding-right: 15px;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    .col-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+    }
+    .col-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+    }
